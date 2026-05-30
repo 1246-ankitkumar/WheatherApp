@@ -1,0 +1,279 @@
+
+.Entire-container{
+  height:100vh;
+  width:50vw;
+  max-width:100%;
+  border:2px solid black;
+  display:flex;
+  flex-direction:row;
+  background-color:rgb(5, 22, 33);
+  overflow-x:hidden;
+  overflow-y:hidden;
+  justify-content:center;
+
+  
+  
+  
+
+ 
+}
+
+
+.card-content1{
+  
+  position:relative;
+  
+}
+.card-content2{
+  position:relative;
+  width:55%;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  border-left:2px solid white;
+border-right:2px solid white;
+
+  
+}
+.card-content3{
+  position:relative;
+  width:30%;
+  border-left:2px solid rgb(91, 89, 89)
+ 
+}
+.current-cart2{
+  display:flex;
+  
+  color:white;
+  position:relative;
+  padding:50px;
+  justify-content:space-between;
+ 
+}
+.current-cart2 img{
+  position:relative;
+  width:40%;
+  height:100%;
+  
+}
+.current-cart2 div h7{
+  font-size:1.5rem;
+  margin:30px;
+  padding:20px;
+
+}
+
+p{
+ 
+  
+  color:rgba(255, 255, 255, 0.615);
+  font-size:0.9rem;
+}
+.temp{
+  position:relative;
+  top:40%;
+  color:rgb(255, 255, 255);
+  font-size:3rem;
+  
+}
+input{
+  height:40%;
+  width:80%;
+  position:relative;
+  margin:10px;
+  border-radius:10px;
+  font-size:1rem;
+   background-color:rgb(220, 226, 230)
+}
+
+.search-icon{
+ 
+  height:40px;
+
+}
+button{
+  margin-top:40px;
+  height:35px;
+  width:40px;
+  border-radius:5px;
+}
+
+
+
+
+.current-cart3{
+  position:relative;
+  height:20%;
+  
+
+  display:flex;
+  overflow-x:auto;
+  overflow-y:hidden;
+
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+  
+}
+
+
+.cart{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+  color:white;
+  justify-content:center;
+  align-items:center;
+  font-size:0.8rem;
+  position:relative;
+  min-width:25%;
+  height:100%;
+  border-right:2px solid rgba(83, 73, 73, 0.615);
+  
+}
+.cart img{
+  height:70px;
+  width:70px;
+}
+
+.current-cart4{
+  position:relative;
+  height:10%;
+  width:100%;
+  text-align:left;
+  left:4%;
+  top:4%;
+  color:rgb(255, 255, 255);
+  font-size:1.5rem;
+  font-weight:bold;
+  
+}
+.current-cart5{
+  position:relative;
+  display:grid;
+  grid-template-rows:repeat(2,1fr);
+  grid-template-columns:repeat(2,1fr);
+  color:white;
+  height:20%;
+}
+
+.Air-cart{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .Entire-container{
+    width:90vw;
+    height:100vh;
+    overflow-y:scroll;
+  }
+
+  .temp{
+    font-size:2.5rem;
+  }
+
+  .current-cart2{
+    padding:25px;
+  }
+}
+
+/* Mobile */
+ @media (max-width: 768px) {
+  .Entire-container{
+    width:100vw;
+    height:100vh;
+    flex-direction:column;
+  }
+
+  .card-content1,
+  .card-content2,
+  .card-content3{
+    width:100%;
+    
+    
+  }
+  .card-content2{
+    min-height:100vh;
+
+  }
+
+  .card-content3{
+    border-left:none;
+    border-top:2px solid rgb(91, 89, 89);
+    
+  }
+
+  .current-cart2{
+    padding:15px;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+
+  .current-cart2 img{
+    width:120px;
+    height:auto;
+  }
+
+  .temp{
+    font-size:2rem;
+    top:0;
+  }
+
+  input{
+    width:90%;
+    height:40px;
+  }
+
+  .cart{
+    min-width:40%;
+  }
+
+  .current-cart5{
+    height:auto;
+    gap:10px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .temp{
+    font-size:1.6rem;
+  }
+
+  .current-cart2 div h7{
+    font-size:1.1rem;
+    margin:10px;
+    padding:5px;
+  }
+
+  .cart{
+    min-width:50%;
+  }
+
+  .cart img{
+    width:50px;
+    height:50px;
+  }
+
+  p{
+    font-size:0.8rem;
+  }
+} 
