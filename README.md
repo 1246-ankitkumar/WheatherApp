@@ -1,17 +1,20 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌦️ Weather App — A fully functional React weather application that provides real-time weather updates, hourly forecasts, temperature, humidity, wind speed, UV index, and more using a weather API.
 
-Currently, two official plugins are available:
+Built a responsive Weather App using React.js and Vite that fetches real-time weather data from an API. Features include city search, current weather conditions, hourly forecasts, temperature, humidity, wind speed, UV index, and a clean, mobile-friendly 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+Weather App 🌦️
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A modern and responsive weather application built with React + Vite that allows users to search for any city and view:
 
-## Expanding the ESLint configuration
+🌡️ Current temperature
+☔ Rain probability
+💨 Wind speed
+💧 Humidity
+☀️ UV Index
+🕒 Hourly weather forecast
+📱 Responsive design for mobile and desktop
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.<img width="554" height="1040" alt="image" src="https://github.com/user-attachments/assets/6e88b8a0-c95e-4fe9-be9c-3569060219ba" />
+<img width="554" height="1040" alt="image" src="https://github.com/user-attachments/assets/6e88b8a0-c95e-4fe9-be9c-3569060219ba" />
 
